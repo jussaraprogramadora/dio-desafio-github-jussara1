@@ -1,0 +1,116 @@
+link para dowloand para git: https://git-scm.com/downloads/win
+
+Passo a passo de como criar repositório no git:
+Entre no GitHub e faça login: https://github.com
+
+No canto superior direito clique em + → New repository.
+
+
+Fazer login: https://github.com
+
+No canto superior direito clique em + → New repository.
+
+Após:
+
+Repository name: exemplo meu-projeto
+
+Description (opcional)
+
+Public .
+
+Marcar  Initialize this repository with .
+Clique em Create repository.
+
+Próximo passo e criar pasta área de trabalho , depois clonar localmente.
+
+Vou na PowerShell
+
+cd "C:\Users\jussa\OneDrive\Área de Trabalho\DIO"
+git clone https://github.com/jussaraprogramadora/dio-desafio-github-jussara1.git
+cd dio-desafio-github-jussara1
+
+
+Iniciar repositotio local:
+adicionar e enviar arquivos:
+
+git add .
+git commit -m "Inclusão das anotações do curso de Git/GitHub"
+git push origin main
+
+
+#  Desafio Git/GitHub DIO
+
+Repositório criado para o **Desafio de Projeto da DIO (Digital Innovation One)** — com o objetivo de praticar os principais comandos de **Git** e **GitHub**, entendendo o fluxo completo de versionamento e colaboração.
+
+---
+
+##  Sobre o projeto
+Aqui estão minhas **anotações, exemplos práticos e exercícios** realizados durante o curso de Git/GitHub.  
+Este repositório faz parte da minha jornada de aprendizado em **lógica de programação, versionamento de código e boas práticas de desenvolvimento**.
+
+---
+
+##  Conteúdo abordado
+- Conceitos fundamentais de **Git**
+- Criação e clonagem de repositórios
+- Controle de versões com `add`, `commit` e `push`
+- Trabalhando com **branch**, **merge** e **pull**
+- Criação de **README** e **.gitignore**
+- Colaboração com **GitHub**
+
+---
+
+##  Autora
+**Jussara Programadora**  
+ jussaraprogramadora.engenharia@gmail.com  
+ [GitHub](https://github.com/jussaraprogramadora)
+
+---
+
+##  Objetivo
+Aplicar o que foi aprendido na plataforma **DIO** e desenvolver uma base sólida para projetos futuros, compartilhando conhecimento e evolução profissional.
+
+gitignore (para evitar subir arquivos desnecessários):
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+*.env
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+
+# Backup / temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos do Windows
+desktop.ini
+
+Se quiser fazer direto no PowerShell: adicionar repositório.
+cd "C:\Users\jussa\OneDrive\Área de Trabalho\DIO\dio-desafio-github-jussara1"
+
+# cria o README e .gitignore
+echo "# 🚀 Desafio Git/GitHub DIO" > README.md
+echo ".vscode/" > .gitignore
+
+# adiciona e envia para o GitHub
+git add .
+git commit -m "Adição do README e .gitignore"
+git push origin main
+
+
+
+
+
